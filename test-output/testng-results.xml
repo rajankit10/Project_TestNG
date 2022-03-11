@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-11T08:53:42Z" name="Default suite" finished-at="2022-03-11T08:54:19Z" duration-ms="37342">
+    <groups>
+      <group name="first">
+        <method signature="project_NG.main(java.lang.String, java.lang.String)[pri:0, instance:Project_TestNG.TestNG.project_NG@436c81a3]" name="main" class="Project_TestNG.TestNG.project_NG"/>
+      </group> <!-- first -->
+      <group name="second">
+        <method signature="project_NG.newmain(java.lang.String, java.lang.String)[pri:0, instance:Project_TestNG.TestNG.project_NG@436c81a3]" name="newmain" class="Project_TestNG.TestNG.project_NG"/>
+      </group> <!-- second -->
+    </groups>
+    <test started-at="2022-03-11T08:53:42Z" name="Default test" finished-at="2022-03-11T08:54:19Z" duration-ms="37342">
+      <class name="Project_TestNG.TestNG.project_NG">
+        <test-method is-config="true" signature="init()[pri:0, instance:Project_TestNG.TestNG.project_NG@436c81a3]" started-at="2022-03-11T08:53:42Z" name="init" finished-at="2022-03-11T08:53:48Z" duration-ms="6424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="main(java.lang.String, java.lang.String)[pri:0, instance:Project_TestNG.TestNG.project_NG@436c81a3]" started-at="2022-03-11T08:53:48Z" name="main" data-provider="testcase" finished-at="2022-03-11T08:54:00Z" duration-ms="11191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[babuBhai25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[babubhai@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Project_TestNG.TestNG.project_NG@436c81a3]" started-at="2022-03-11T08:54:00Z" name="init" finished-at="2022-03-11T08:54:05Z" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="newmain(java.lang.String, java.lang.String)[pri:0, instance:Project_TestNG.TestNG.project_NG@436c81a3]" started-at="2022-03-11T08:54:05Z" name="newmain" data-provider="testcase" finished-at="2022-03-11T08:54:19Z" duration-ms="14008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[babuBhai25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[babubhai@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newmain -->
+      </class> <!-- Project_TestNG.TestNG.project_NG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

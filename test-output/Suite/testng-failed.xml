@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="second"/>
+        <exclude name="first"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Project_TestNG.TestNG.project_NG">
+        <methods>
+          <include name="newmain" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Project_TestNG.TestNG.project_NG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
